@@ -42,6 +42,8 @@
   /*  ! margin  padding */
   --margin-padding-witch-block: 94px;
   --margin-title-bottom: 50px;
+  --padding-footer: 60px;
+  --padding-footer-left: 45px;
 }
 
 /*     Body          */
@@ -140,9 +142,14 @@ body {
 
 .footer {
   background-color: var(--footer-background-color);
+  padding-top: var(--padding-footer);
+  padding-bottom: var(--padding-footer);
+  padding-left: var(--padding-footer-left);
 }
 .footer-logo {
   text-decoration: none;
+  display: inline-block;
+  margin-right: auto;
 
   font-size: 26px;
   font-weight: 700;
@@ -150,6 +157,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--footer-logo-second-color);
+  margin-bottom: 20px;
 }
 
 .footer-linc {
@@ -160,6 +168,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: left;
+}
+.footer-item + .footer-item {
+  margin-top: 20px;
 }
 .footer-item-addres-link {
   color: var(--footer-addres-text-color);
