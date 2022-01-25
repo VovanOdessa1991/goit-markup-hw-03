@@ -170,6 +170,7 @@ img {
 .footer-linc {
 }
 .footer-list {
+  font-style: normal;
   list-style: none;
   font-size: 14px;
   line-height: 1.5;
@@ -238,7 +239,7 @@ img {
 /*       Doing      */
 .doing {
   padding-top: var(--margin-padding-witch-block);
-  margin-bottom: var(--margin-padding-witch-block);
+  padding-bottom: var(--margin-padding-witch-block);
 }
 .doing-list {
   list-style: none;
@@ -265,7 +266,7 @@ img {
   text-align: left;
 }
 .examples {
-  margin-bottom: var(--margin-padding-witch-block);
+  padding-bottom: var(--margin-padding-witch-block);
 }
 .examples-title {
   color: var(--second-text-color);
@@ -288,6 +289,7 @@ img {
 .we {
   background-color: var(--background-second-color);
   padding-top: var(--margin-padding-witch-block);
+  padding-bottom: 94px;
 }
 .we-title {
   color: var(--title-second-text-color);
@@ -301,7 +303,6 @@ img {
 .we-list {
   list-style: none;
   text-align: center;
-  padding-bottom: 94px;
 }
 .we-item {
   width: var(--width-card-thin);
@@ -342,7 +343,7 @@ img {
   list-style: none;
   /* padding-left: 280px;
   padding-right: 268px; */
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .filter-item:not(:last-child) {
@@ -384,8 +385,7 @@ img {
   width: 370px;
 }
 .article-text {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 .article-title {
   text-decoration: none;
