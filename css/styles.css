@@ -1,4 +1,7 @@
 :root {
+  /* !SVG */
+  --svg-first-color: #afb1b8;
+  --svg-hover-color: #ffffff;
   /* !Logo */
   --logo-first-color: #2196f3;
   --logo-second-color: #000000;
@@ -285,7 +288,7 @@ img {
 .examples-image {
   width: var(--width-card-thick);
 }
-/*      We         */
+/*      !We         */
 .we {
   background-color: var(--background-second-color);
   padding-top: var(--margin-padding-witch-block);
@@ -318,6 +321,7 @@ img {
   padding-top: var(--margin-bottom);
   padding-bottom: var(--margin-bottom);
 }
+
 .we-item-title {
   color: var(--title-second-text-color);
   font-size: 16px;
@@ -332,7 +336,34 @@ img {
   font-style: normal;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+.we-item-list {
+  width: 206px;
+  margin: 0 auto;
+}
+
+.we-item-item {
+  width: 44px;
+  height: 44px;
+}
+.we-item-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--svg-first-color);
+}
+.we-item-social-link:hover,
+.we-item-social-link:focus {
+  background-color: var(--button-background-hover-color);
+  color: var(--svg-hover-color);
+}
+.we-item-social-icon {
+  fill: currentColor;
 }
 
 /* !portfolio.html */
